@@ -1,0 +1,16 @@
+#include <iostream>
+ using namespace std;
+ int main()
+ {
+ int nu;
+ 	cout << " Please Enter Your Preferred Number  " << endl;
+ 	cin >> nu;
+ 	if (nu > 0) {
+ 		cout << " Your Number Is Positive " << endl;
+ 	}
+ 	if (nu < 0) {
+ 		cout << " Your Number Is Negative " << endl;
+ 	}
+ 	if (nu == 0) {
+ 		cout << " Your Number Is Zero " << endl;
+ 	}
